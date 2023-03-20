@@ -13,9 +13,9 @@ def driver():
 
     :return: runs the code
     """
-    con_string = "mysql+pymysql://root:123456789@127.0.0.1:3306"
+    con_string = "mysql+pymysql://root:pass@ip:3306"
 
-    git_token = "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"
+    git_token = ""
     # Will expire by 15 March
 
     headers = {'Authorization': 'token ' + git_token}
